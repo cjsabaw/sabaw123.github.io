@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>ACTIVITY 10</title>
+	<style>
+		body {
+			text-align: center;
+			color: white;
+			font-size: 25px;
+			background-image: url("https://thumbs.dreamstime.com/b/silhouette-flock-birds-burst-out-book-sunset-mountains-backround-fantasy-167484038.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		form {
+			background-color: black;
+			padding: 30px;
+			border-radius: 50px;
+		}
+
+		input {
+			margin-bottom: 10px;
+		}
+
+		table {
+			margin-top: 0px;
+			height: 500px;
+			width: 500px;
+		}
+
+		#one {
+			margin-right: 98px;
+		}
+
+		#two {
+			margin-right: 100px;
+		}
+
+		#three {
+			margin-right: 99px;
+		}
+
+		#four {
+			margin-right: 40px;
+		}
+
+		#five {
+			margin-right: 25px;
+		}
+
+		#six {
+			margin-right: 105px;
+		}
+
+		#seven {
+			margin-right: 55px;
+		}
+
+		h1 {
+			color: #2e044c;
+			margin: 25px 0px 0px 0px;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<h1>Enter what is needed</h1>
+		<table>
+			<tr>
+				<td>
+
+					<form id="myForm" action="https://script.google.com/macros/s/AKfycbxMF6RmFQJP5gf4ADL3iDz_6q3Pu807URTfZPPJSuPiKetFspqSNs4r2qalgFQd3vfC/exec" method='post'>
+						<label id="one" for="fname">First name:</label>
+						<input type="text" id="fname" name="fname" required><br>
+
+						<label id="two" for="lname">Last name:</label>
+						<input type="text" id="lname" name="lname" required><br>
+
+						<label id="three" for="age">Birth Date:</label>
+						<input type="date" id="date" name="date"><br>
+
+						<label id="four">Choose your gender: </label>
+						<input type="radio" name="gender" id="male" value="male">
+						<label for="male">Male</label>
+						<input type="radio" name="gender" id="female" value="female">
+						<label for="female">Female</label><br>
+
+						<label id="five" for="phone">Enter a phone number:</label>
+						<input type="tel" id="phone" name="phone" placeholder="e.g. 09361382354" pattern="[0-9]{11}"><br>
+
+						<label id="six" for="email">Email address:</label>
+						<input type="email" id="email" name="email"><br>
+
+						<label id="seven" for="remarks">what can you say about this web page:</label><br>
+						<input type="text" id="remarks" name="remarks" style="height:50px; width:500px;"><br>
+
+						<input type="submit">
+					</form>
+				</td>
+			</tr>
+		</table>
+	</center>
+</body>
+</html>

@@ -1,0 +1,99 @@
+#file1 {
+    background-image: url("https://i.pinimg.com/originals/e2/75/db/e275db444914200d9f2d777607af54ac.jpg");
+    background-color: darksalmon;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+}
+#file2 {
+    background-image: url("https://i.pinimg.com/736x/75/96/40/759640c07fcdf2fd8d494200cd41dd8a.jpg");
+    background-size: cover;
+    background-color: darksalmon;
+    background-repeat: no-repeat;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+}
+#file3 {
+    background-image: url("https://marketplace.canva.com/EAFIKG6eaGk/1/0/900w/canva-tropical-beige-aesthetic-phone-wallpaper-8yUL8Zcfjqg.jpg");
+    background-color: darksalmon;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+}
+#file4 {
+    background-image: url("https://png.pngtree.com/background/20211215/original/pngtree-simple-aesthetic-wallpapers-picture-image_1461596.jpg");
+    background-color: darksalmon;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+}
+#file5 {
+    background-image: url("https://png.pngtree.com/background/20211215/original/pngtree-beautiful-aesthetic-wallpapers-picture-image_1461598.jpg");
+    background-color: darksalmon;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+}
+a:link {
+    color: orchid;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 100px 0px 5px 0px;
+}
+
+a:visited {
+    color: orchid;
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 100px 2px 50px 2px;
+}
+
+a:hover {
+    color: black;
+    background-color: whitesmoke;
+    text-decoration: none;
+}
+
+a:active {
+    color: yellow;
+    background-color: antiquewhite;
+    text-decoration: none;
+}
+
+#tab {
+    background-size: cover;
+    background-color: chartreuse;
+    width: 100%;
+    height: 75px;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 0px 0px 0px;
+}
+
+#one {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+
+}
+#two {
+    margin: 0px 0px 50px 0px;
+    background-color:black;
+    height: 5px
+}

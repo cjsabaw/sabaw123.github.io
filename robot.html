@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>ROBOT</title>
+    <script src="robotAnimation.js"></script>
+    <script>
+        var robot;
+        function startRobot() {
+            runRobotAnimation(VillageState.random(),goalOrientedRobot, []);
+        }
+    </script>
+</head>
+<body>
+    <center>
+    <div id ="display">
+        <script src="mainRobot.js"></script>
+    </div>
+    <button onclick="startRobot()"> start </button> 
+    </center>
+</body>
+</html>
